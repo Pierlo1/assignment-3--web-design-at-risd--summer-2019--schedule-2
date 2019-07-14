@@ -1,0 +1,79 @@
+body {
+   font-family: 'Open sans', sans-serif;
+}
+
+h1 {
+   font-size: 64px;
+   font-weight: 800;
+   color: black;
+   margin: 20px auto 10px 65px;
+   text-align: left;
+   border: 8px;
+   padding: 1px;
+   line-height: 1;
+}
+
+h2 {
+   font-size: 32px;
+   font-weight: 600;
+   color: black;
+   margin: 10px auto 30px 65px;
+   text-align: left;
+   border: 8px;
+   padding: 1px;
+   line-height: 1;
+}
+
+h3 {
+   font-size: 32px;
+   font-weight: 600;
+   color: white;
+   margin: 30px auto 50px 25px;
+   text-align: left;
+   border: 8px;
+   padding: 1px;
+   line-height: 1.3;
+}
+nav {
+   margin-top: var(--height--nav);
+}
+
+p {
+   font-family: 'Open sans', sans-serif;
+   color: white;
+   line-height: 1.3;
+   font-size: 32px;
+   margin: 30px auto 50px 25px;
+}
+
+ul {
+   list-style-type: lower-greek;
+   margin-left: 140px;
+   font-size: 16px;
+}
+
+div {
+   margin: 350px auto 10px 40px;
+   border: 8px;
+   padding: 1px;
+}
+
+#dieter {
+   z-index: -1;
+   position: fixed;
+   top: -50%;
+   left: -50%;
+   width: 200%;
+   height: 200%;
+}
+
+#dieter img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   min-width: 50%;
+   min-height: 50%;
+}
