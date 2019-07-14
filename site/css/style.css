@@ -25,15 +25,16 @@ h2 {
 }
 
 h3 {
-   font-size: 32px;
-   font-weight: 600;
+   font-size: 24px;
+   font-weight: 400;
    color: white;
-   margin: 30px auto 50px 25px;
+   margin: 20px auto 50px 25px;
    text-align: left;
    border: 8px;
    padding: 1px;
    line-height: 1.3;
 }
+
 nav {
    margin-top: var(--height--nav);
 }
@@ -42,8 +43,9 @@ p {
    font-family: 'Open sans', sans-serif;
    color: white;
    line-height: 1.3;
-   font-size: 32px;
-   margin: 30px auto 50px 25px;
+   font-size: 24px;
+   text-align: justify;
+   margin: 30px 130px 50px 25px;
 }
 
 ul {
@@ -58,6 +60,10 @@ div {
    padding: 1px;
 }
 
+span.bold {
+   font-weight: 400;
+}
+
 #dieter {
    z-index: -1;
    position: fixed;
@@ -68,6 +74,26 @@ div {
 }
 
 #dieter img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   min-width: 50%;
+   min-height: 50%;
+}
+
+#bg {
+   z-index: -1;
+   position: fixed;
+   top: -50%;
+   left: -50%;
+   width: 200%;
+   height: 200%;
+}
+
+#bg img {
    position: absolute;
    top: 0;
    left: 0;
