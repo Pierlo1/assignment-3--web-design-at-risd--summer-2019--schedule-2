@@ -6,7 +6,7 @@ h1 {
    font-size: 64px;
    font-weight: 800;
    color: #d96b43;
-   margin: 40px auto 10px 65px;
+   margin: 25px auto 10px 65px;
    text-align: left;
    border: 8px;
    padding: 1px;
@@ -52,6 +52,7 @@ ul {
    list-style-type: lower-greek;
    margin-left: 140px;
    font-size: 16px;
+   font-style: italic;
 }
 
 div {
