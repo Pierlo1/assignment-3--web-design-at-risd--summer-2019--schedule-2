@@ -1,4 +1,14 @@
+li:nth-child(-n+8) {
+   border: 1px black;
+}
+
+li {
+   vertical-align: middle;
+}
+
 a {
+   width: 100%;
+   border: 1px black;
    display: block;
    transition: 500ms;
    color: white;
@@ -15,7 +25,7 @@ a:link {
 a:hover {
    /* text-decoration: overline; */
    background-color: #d96b43;
-   line-height: 1.7;
+   line-height: 1.2
 }
 
 a:active {
