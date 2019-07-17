@@ -9,7 +9,7 @@ nav {
 }
 
 nav > ul {
-   margin: 0 auto 25px 40px;
+   margin: 0 60px 25px;
    width: auto;
    list-style-type: none;
 }
